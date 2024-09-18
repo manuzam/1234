@@ -1,2 +1,2 @@
-let nameUsuário = 'Laura e Manuela';
+let nomeUsuário = 'Laura e Manuela';
 alert('Laura e Manuela')
