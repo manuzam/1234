@@ -11,6 +11,7 @@ console.log(areaQuadrado(6));
 let media = function(num1,num2,num3){
     return (num1+num2+num3)/3;
 }
-console.log(media(num1,num2,num3)    );
-let media=parseInt(prompt('1,2,3'))
-document.write(media);
+console.log(media(1,2,3));
+parseInt(prompt('Qual é a media das notas do primeiro trimestre'));
+let mediaMedigaasnotas = ('Média dos valores');
+document.write
