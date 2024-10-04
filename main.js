@@ -12,6 +12,11 @@ let media = function(num1,num2,num3){
     return (num1+num2+num3)/3;
 }
 console.log(media(1,2,3));
-parseInt(prompt('Qual é a media das notas do primeiro trimestre'));
-let mediaMedigaasnotas = ('Média dos valores');
-document.write
+parseInt(prompt('Me diga três valores para mim tirar a média'));
+let num1 = parcent(prompt('Qual nº?'));
+let num2 = parcent(prompt('Qual nº?'));
+let num3 = parcent(prompt('Qual nº?'));
+function media (x,y,z){
+    return (x,y,z)/3;
+}
+document.write (media(num1, num2,num3));
