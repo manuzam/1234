@@ -32,7 +32,7 @@ for (let index = 0; index < estados.length; index++) {
     console.log(index);
     console.log(estados[index]);
 }
-let idade=25
+let idade=13
 if(idade>17) {
     console.log();
     console.log('Pode dirigir');
