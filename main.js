@@ -18,5 +18,5 @@ let num3 = parcent(prompt('Qual nº?'));
 function media (x,y,z){
     return (x,y,z)/3;
 }
-document.write (media(num1, num2,num3));
 console.log(media(1,2,3));
+document.write (media(num1, num2,num3));
