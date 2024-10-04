@@ -20,11 +20,16 @@
 // }
 // console.log(media(1,2,3));
 // document.write (media(num1, num2,num3));
-let estados=
-[ 'Acre','Alagoas','Amapá','Amazonas','Bahia','Ceará','Distrito Federal','Espírito Santo','Goiás','Maranhão','Mato Grosso','Mato Grosso do Sul','Minas Gerais','Pará','Paraíba','Paraná','Pernambuco','Piauí','Rio de Janeiro','Rio Grande do Norte','Rio Grande do Sul','Santa Catarina','São Paulo','Sergipe','Tocantins','Rondônia','Roraima'];
-let i=0;
-while (i<27){
-    console.log(i);
-    console.log(estados[i]);
-    i++;
+// let estados=
+// [ 'Acre','Alagoas','Amapá','Amazonas','Bahia','Ceará','Distrito Federal','Espírito Santo','Goiás','Maranhão','Mato Grosso','Mato Grosso do Sul','Minas Gerais','Pará','Paraíba','Paraná','Pernambuco','Piauí','Rio de Janeiro','Rio Grande do Norte','Rio Grande do Sul','Santa Catarina','São Paulo','Sergipe','Tocantins','Rondônia','Roraima'];
+// let i=0;
+// while (i<27){
+//     console.log(i);
+//     console.log(estados[i]);
+//     i++;
+// }
+for (let index = 0; index < estados.length; index++) {
+    const element = array[index];
+    console.log(index);
+    console.log(estados[index]);
 }
