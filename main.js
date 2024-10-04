@@ -11,7 +11,6 @@ console.log(areaQuadrado(6));
 let media = function(num1,num2,num3){
     return (num1+num2+num3)/3;
 }
-console.log(media(1,2,3));
 parseInt(prompt('Me diga três valores para mim tirar a média'));
 let num1 = parcent(prompt('Qual nº?'));
 let num2 = parcent(prompt('Qual nº?'));
@@ -20,3 +19,4 @@ function media (x,y,z){
     return (x,y,z)/3;
 }
 document.write (media(num1, num2,num3));
+console.log(media(1,2,3));
