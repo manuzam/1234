@@ -29,10 +29,12 @@ let estados=
 //     i++;
 // }
 for (let index = 0; index < estados.length; index++) {
+    const element = estados[index];
     console.log(index);
     console.log(estados[index]);
 }
-let idade=13
+let idade=('idade')
+let idade = parseInt(prompt('Qual é a sua idade?'));
 if(idade>17) {
     console.log();
     console.log('Pode dirigir');
