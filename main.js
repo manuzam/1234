@@ -20,4 +20,6 @@
 // }
 // console.log(media(1,2,3));
 // document.write (media(num1, num2,num3));
-
+let estados=[
+    'Acre','Alagoas','Amapá','Amazonas','Bahia','Ceará','Distrito Federal','Espírito Santo','Goiás','Maranhão','Mato Grosso','Mato Grosso do Sul','Minas Gerais','Pará','Paraíba','Paraná','Pernambuco','Piauí','Rio de Janeiro','Rio Grande do Norte','Rio Grande do Sul','Santa Catarina','São Paulo','Sergipe','Tocantins','Rondônia'.
+];
